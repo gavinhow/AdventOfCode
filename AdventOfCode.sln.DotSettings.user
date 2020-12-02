@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9c6d474_002D040b_002D4410_002D85e0_002D7aa00b0583f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwentyTwentySumTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::953B9C9A-D8A0-47F5-99F6-2B13B0C30CD9::.NETCoreApp,Version=v3.1::Day1Test.LogicTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EAD708D1-410D-44E6-80E7-C26239DC421C::.NETCoreApp,Version=v3.1::Day2Test.LogicTest.PasswordCheckTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::EAD708D1-410D-44E6-80E7-C26239DC421C::.NETCoreApp,Version=v3.1::Day2Test.LogicTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
