@@ -4,5 +4,7 @@
     &lt;TestId&gt;xUnit::953B9C9A-D8A0-47F5-99F6-2B13B0C30CD9::.NETCoreApp,Version=v3.1::Day1Test.LogicTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EAD708D1-410D-44E6-80E7-C26239DC421C::.NETCoreApp,Version=v3.1::Day2Test.LogicTest.PasswordCheckTrue&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::EAD708D1-410D-44E6-80E7-C26239DC421C::.NETCoreApp,Version=v3.1::Day2Test.LogicTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A7C94840-CEA3-483F-9FF2-97FAB29F36CB::.NETCoreApp,Version=v3.1::Day3Test.UnitTest1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A7C94840-CEA3-483F-9FF2-97FAB29F36CB::.NETCoreApp,Version=v3.1::Day3Test.LogicTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
