@@ -26,15 +26,33 @@ namespace Day4
             }
             
             passports.Add(tempPassport);
+            
+            List<string> validPassports = new List<string>();
 
             int validCount = 0;
             foreach (string passport in passports)
             {
-                if (Passport.IsValid(passport))
+                if (Passport.IsValidPart1(passport))
+                {              
                     validCount += 1;
+                    validPassports.Add(passport);
+
+                }
+            }
+
+            int validCountPart2 = 0;
+            List<string> validPart2 = new List<string>();
+            foreach (string passport in validPassports)
+            {
+                if (Passport.Parse(passport).IsValid())
+                {
+                    validCountPart2 += 1;
+                    validPart2.Add(passport);
+                }
             }
 
             Console.WriteLine($"Valid count : {validCount}");
+            Console.WriteLine($"Valid count part 2: {validCountPart2}");
         }
     }
 }
