@@ -1,29 +1,24 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=27c0fc1f_002D5e2f_002D48a1_002D9628_002Deb24d5c5c3a1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="2" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;And&gt;
-    &lt;TestAncestor&gt;
-      &lt;TestId&gt;xUnit::0FAF7A79-E709-45DA-89B0-4899866188E4::.NETCoreApp,Version=v3.1::Day4Test.LogicTest&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest.RowCalculation&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::CC81A98A-FBB6-4F61-89B5-1BEF99BFC087::.NETCoreApp,Version=v3.1::Day6Test.LogicTest.QuestionsAnsweredCount&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest.ParseLuggageSection&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest.ParseOneLineTest&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest.Part1Test&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest&lt;/TestId&gt;
-      &lt;TestId&gt;xUnit::3C175D9E-8A0E-4971-9DD3-64431D35E902::.NETCoreApp,Version=v3.1::Day8Test.LogicTest&lt;/TestId&gt;
-    &lt;/TestAncestor&gt;
-    &lt;Project Location="/Users/gavinhow/Personal/AdventOfCode/Day8Test" Presentation="&amp;lt;Day8Test&amp;gt;" /&gt;
-  &lt;/And&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=27c0fc1f_002D5e2f_002D48a1_002D9628_002Deb24d5c5c3a1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="2" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C99AFD9A-A567-4C61-B42C-56F6D21B8A18::.NETCoreApp,Version=v3.1::Day9Test.LogicTest.ParseTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
 	
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9c6d474_002D040b_002D4410_002D85e0_002D7aa00b0583f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TwentyTwentySumTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::0FAF7A79-E709-45DA-89B0-4899866188E4::.NETCoreApp,Version=v3.1::Day4Test.LogicTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest.RowCalculation&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::CC81A98A-FBB6-4F61-89B5-1BEF99BFC087::.NETCoreApp,Version=v3.1::Day6Test.LogicTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest.ParseLuggageSection&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f9c6d474_002D040b_002D4410_002D85e0_002D7aa00b0583f3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwentyTwentySumTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::0FAF7A79-E709-45DA-89B0-4899866188E4::.NETCoreApp,Version=v3.1::Day4Test.LogicTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest.RowCalculation&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::BE1400F5-99C7-4397-8D99-073316593249::.NETCoreApp,Version=v3.1::Day5Test.LogicTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::CC81A98A-FBB6-4F61-89B5-1BEF99BFC087::.NETCoreApp,Version=v3.1::Day6Test.LogicTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::117DCB51-E9F3-4A66-B9B4-19C58AC1C298::.NETCoreApp,Version=v3.1::Day7Test.LogicTest.ParseLuggageSection&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::C99AFD9A-A567-4C61-B42C-56F6D21B8A18::.NETCoreApp,Version=v3.1::Day9Test.LogicTest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;Not&gt;&#xD;
+      &lt;Project Location="C:\Users\GAHOW\Personal\AdventOfCode\Day4Test" Presentation="&amp;lt;Day4Test&amp;gt;" /&gt;&#xD;
+    &lt;/Not&gt;&#xD;
+  &lt;/And&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

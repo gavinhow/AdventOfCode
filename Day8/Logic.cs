@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Security;
 
 namespace Day8
 {
@@ -20,12 +21,7 @@ namespace Day8
             {
                 while (true)
                 {
-                    if (state.Position > 630)
-                    {
-                        Console.WriteLine("Test");
-                    }
                     state = instructions[state.Position].Execute(state);
-                    
                 }
             }
             catch (Exception e)
@@ -36,30 +32,44 @@ namespace Day8
             return accumulatorEndValue;
         }
         
-        public static int Part2(string input, )
+        public static int Part2(string input)
         {
-            Instruction[] instructions = ParseInstructionSet(input);
-            State state = new State();
-
-            int accumulatorEndValue;
-            try
+            
+            for (int i = 0; i < ParseInstructionSet(input).Length; i++)
             {
-                while (true)
+                try
                 {
-                    if (state.Position >= instructions.Length)
-                    {
-                        return state.Accumulator;
-                    }
-                    state = instructions[state.Position].Execute(state);
-                    
+                    Instruction[] instructions = ParseInstructionSet(input);
+
+                    return Part2Nest(instructions, i);
+                }
+                catch (Exception e)
+                {
+                    // ignore
                 }
             }
-            catch (Exception e)
-            {
-                accumulatorEndValue = state.Accumulator;
-            }
 
-            return accumulatorEndValue;
+            throw new Exception("Didn't complete correctly.");
+        }
+
+        public static int Part2Nest(Instruction[] instructions, int positionToChange)
+        {
+            State state = new State();
+
+            if (instructions[positionToChange].Operation == OperationType.JMP)
+                instructions[positionToChange].Operation = OperationType.NOP;
+            else if (instructions[positionToChange].Operation == OperationType.NOP)
+                instructions[positionToChange].Operation = OperationType.JMP;
+            else
+                throw new Exception("Not a JMP or NOP position");
+
+            while (true)
+            {
+                if (state.Position == instructions.Length)
+                    return state.Accumulator;
+                
+                state = instructions[state.Position].Execute(state);
+            }
         }
     }
 }

@@ -9,6 +9,7 @@ namespace Day8
             string input = System.IO.File.ReadAllText(@"input.txt");
 
             Console.WriteLine($"Part 1: {Logic.Part1(input)}");
+            Console.WriteLine($"Part 2: {Logic.Part2(input)}");
         }
     }
 }
