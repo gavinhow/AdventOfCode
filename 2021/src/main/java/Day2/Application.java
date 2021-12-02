@@ -2,6 +2,7 @@ package Day2;
 
 
 import Day2.Models.Instruction;
+import Util.InputReader;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,13 +13,9 @@ import java.nio.file.Files;
 import java.util.List;
 
 public class Application {
-    public static void main(String[] args) throws URISyntaxException {
-        Application app = new Application();
-        String fileName = "InputData/Day2/1.txt";
-        File file = app.getFileFromResource(fileName);
-        List<String> lines;
+    public static void main(String[] args) {
         try {
-            lines = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
+            List<String> lines = InputReader.LoadPuzzleData(2);
             Instruction[] instructions = lines.stream().map(Instruction::parseInput).toArray(Instruction[]::new);
 
             RouteCalculator routeCalculator = new RouteCalculator();
@@ -27,36 +24,12 @@ public class Application {
             System.out.println("Part 1");
             System.out.println(finalPart1);
 
-
             Integer finalPart2 = routeCalculator.calculateFinalOutputPart2(instructions);
 
             System.out.println("Part 2");
             System.out.println(finalPart2);
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-    /*
-        The resource URL is not working in the JAR
-        If we try to access a file that is inside a JAR,
-        It throws NoSuchFileException (linux), InvalidPathException (Windows)
-
-        Resource URL Sample: file:java-io.jar!/json/file1.json
-     */
-    private File getFileFromResource(String fileName) throws URISyntaxException {
-        ClassLoader classLoader = getClass().getClassLoader();
-        URL resource = classLoader.getResource(fileName);
-        if (resource == null) {
-            throw new IllegalArgumentException("file not found! " + fileName);
-        } else {
-
-            // failed if files have whitespaces or special characters
-            //return new File(resource.getFile());
-
-            return new File(resource.toURI());
-        }
-
-    }
-
 }
